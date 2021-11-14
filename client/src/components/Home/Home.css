@@ -1,0 +1,47 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.salebtn {
+    padding: 1em 2em;
+    margin: 2em;
+    font-size: 2em;
+    font-weight: bold;
+    color: #9e4ed9;
+    border: none;
+    background-color: white;
+    border-radius: 2em;
+    box-shadow: 0 0.3em 0.5em grey;
+    transition: ease 0.5s;
+    cursor: pointer;
+}
+
+.salebtn:hover {
+    color: #6ef06b;
+    box-shadow: 0 0.8em 1em grey;
+}
+
+.salesdata {
+    text-align: center;
+    background-color: white;
+    padding: 1em;
+    width: 75vw;
+    border-radius: 2em;
+}
+
+.salesdata h1 {
+    color: #9e4ed9;
+}
+
+.data {
+    margin: 2em;
+}
+
+@media only screen and (max-width: 350px) {
+    .salebtn {
+        font-size: 1.5em;
+    }
+}

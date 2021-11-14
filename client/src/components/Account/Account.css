@@ -1,0 +1,74 @@
+.account {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.account > h1 {
+    margin: 2em;
+}
+
+.accdata {
+    margin: 0 1.5em;
+}
+
+.updatebtn {
+    padding: 0.5em 1em;
+    margin: 1em;
+    border: none;
+    background-color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #9e4ed9;
+    box-shadow: 0 0.3em 0.5em grey;
+    border-radius: 1em;
+    cursor: pointer;
+    transition: ease 0.5s;
+}
+.updatebtn:hover {
+    box-shadow: 0 0.8em 1em grey;
+}
+
+.logoutbtn {
+    padding: 0.5em 1em;
+    margin: 1em;
+    border: none;
+    background-color: white;
+    font-size: 2em;
+    font-weight: bold;
+    color: #9e4ed9;
+    box-shadow: 0 0.3em 0.5em grey;
+    border-radius: 1em;
+    transition: ease 0.5s;
+}
+.logoutbtn:hover {
+    color: red;
+    cursor: pointer;
+    box-shadow: 0 0.8em 1em grey;
+}
+
+.deletebtn {
+    padding: 0.5em 1em;
+    margin: 1em;
+    border: none;
+    background-color: white;
+    font-size: 2em;
+    font-weight: bold;
+    color: #9e4ed9;
+    box-shadow: 0 0.3em 0.5em grey;
+    border-radius: 1em;
+    transition: ease 0.5s;
+}
+.deletebtn:hover {
+    color: red;
+    cursor: pointer;
+    box-shadow: 0 0.8em 1em grey;
+}
+
+@media only screen and (max-width: 400px) {
+    .accdata {
+        font-size: 0.75em;
+    }
+}

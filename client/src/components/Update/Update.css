@@ -1,0 +1,51 @@
+.update {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.upform {
+    display: flex;
+    flex-direction: column;
+}
+
+.upform > .inputs {
+    padding: 0.5em 1em;
+    margin: 1em;
+    width: 50vw;
+    border: none;
+    border-radius: 1em;
+    font-size: 1.3em;
+}
+
+.upbtn {
+    font-size: 2em;
+    font-weight: bold;
+    color: #9e4ed9;
+    background-color: white;
+    border: none;
+    border-radius: 1em;
+    padding: 0.5em 1em;
+    margin: 1em;
+    box-shadow: 0 0.3em 0.5em grey;
+    cursor: pointer;
+    transition: ease 0.5s;
+}
+
+.upbtn:hover {
+    color: #6ef06b;
+    box-shadow: 0 0.8em 1em grey;
+}
+
+@media only screen and (max-width: 768px) {
+    .regform > .inputs {
+        width: 60vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .regform > .inputs {
+        width: 75vw;
+    }
+}

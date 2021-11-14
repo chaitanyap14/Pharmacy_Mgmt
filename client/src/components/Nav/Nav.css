@@ -1,0 +1,57 @@
+.nav {
+    background: transparent;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: ease 0.5s;
+}
+
+.logo {
+    padding: 0 2em;
+    color: white;
+    transition: ease 0.5s;
+}
+
+.logo:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.sale {
+    transition: ease 0.5s;
+    color: white;
+}
+.sale:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.accountlink {
+    color: white;
+    transition: ease 0.5s;
+}
+
+.accountlink:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.linklist {
+    display: flex;
+    list-style-type: none;
+}
+
+.linklist li {
+    padding: 0 2em;
+}
+
+@media only screen and (max-width: 465px) {
+    .logo {
+        padding: 0;
+    }
+
+    .linklist li {
+        padding: 0 1em;
+    }
+}

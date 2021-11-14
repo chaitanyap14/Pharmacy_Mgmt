@@ -1,0 +1,60 @@
+.cust {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.custform {
+    display: flex;
+    flex-direction: column;
+}
+
+.custform > .inputs {
+    padding: 1em 2em;
+    margin: 1em;
+    width: 40vw;
+    border: none;
+    font-size: 1.3em;
+    border-radius: 1em;
+}
+
+h1 {
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+.custbtn {
+    border: none;
+    background-color: white;
+    color: #9e4ed9;
+    margin: 1em;
+    padding: 0.5em 1em;
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 1em;
+    box-shadow: 0 0.3em 0.5em grey;
+    cursor: pointer;
+    transition: ease 0.5s;
+}
+
+.custbtn:hover {
+    color: #6ef06b;
+    box-shadow: 0 0.8em 1em grey;
+}
+
+@media only screen and (max-width: 768px) {
+    .custform > .inputs {
+        width: 60vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .custform > .inputs {
+        margin: 1em 0;
+        width: 90vw;
+    }
+}

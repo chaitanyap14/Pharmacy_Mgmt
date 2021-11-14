@@ -1,0 +1,50 @@
+.sell {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sellform {
+    display: flex;
+    flex-direction: column;
+}
+
+.sellform > .inputs {
+    padding: 0.5em 1em;
+    margin: 1em;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 1em;
+}
+
+.sellbtn {
+    padding: 0.5em 1em;
+    margin: 1em;
+    font-size: 2em;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    color: #9e4ed9;
+    border-radius: 1em;
+    box-shadow: 0 0.3em 0.5em grey;
+    cursor: pointer;
+    transition: ease 0.5s;
+}
+
+.sellbtn:hover {
+    color: #6ef06b;
+    box-shadow: 0 0.8em 1em grey;
+}
+
+@media only screen and (max-width: 768px) {
+    .sellform > .inputs {
+        width: 60vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .sellform > .inputs {
+        width: 90vw;
+    }
+}
